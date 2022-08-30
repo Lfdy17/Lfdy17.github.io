@@ -32,7 +32,6 @@ var mainObj = new (function () {
         e.style.color = "black";
       });
       this.result = avail[randNum];
-      console.log(this.result);
     }
 
     this.change = () => {
