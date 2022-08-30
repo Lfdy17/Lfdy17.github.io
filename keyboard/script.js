@@ -20,7 +20,7 @@ var mainObj = new (function () {
       let randNum = Math.floor(Math.random() * availf.length);
       availf.forEach((e) => {
         e.classList.remove("shake");
-        e.classList.add("black");
+        e.style.color = "black";
       });
       this.result = availf[randNum];
     } else if (select.value === "english") {
@@ -29,7 +29,7 @@ var mainObj = new (function () {
       let randNum = Math.floor(Math.random() * avail.length);
       avail.forEach((e) => {
         e.classList.remove("shake");
-        e.classList.add("black");
+        e.style.color = "black";
       });
       this.result = avail[randNum];
       console.log(this.result);
